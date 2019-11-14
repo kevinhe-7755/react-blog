@@ -1,0 +1,8 @@
+.al-container{
+    width: 40%;
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-bottom: 50px;
+}

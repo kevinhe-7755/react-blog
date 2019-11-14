@@ -1,0 +1,10 @@
+.h_container{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.h_main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
