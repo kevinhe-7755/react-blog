@@ -15,7 +15,7 @@ class Front extends Component {
             <div>
                 <Switch>
                     <Route exact path={url} component={Homepage}></Route>
-                    <Route path={`/detail/:id`} component={Detail}></Route>
+                    <Route path={`/detail`} component={Detail}></Route>
                 </Switch>
             </div>
         )

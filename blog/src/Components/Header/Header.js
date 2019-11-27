@@ -11,6 +11,7 @@ class Header extends Component {
                 <h1>Kevin's Blog</h1>
                 <div className="button_container">
                     <Button type="primary" onClick={()=>{this.props.history.push(`/admin/PostArticles`)}}>后台管理</Button>
+                    <Button type="primary" onClick={()=>{this.props.history.push(`/admin/PostArticles`)}}>登陆</Button>
                 </div>
             </div>
         )

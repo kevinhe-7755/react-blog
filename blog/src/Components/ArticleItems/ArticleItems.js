@@ -2,11 +2,21 @@ import React, {Component} from 'react';
 import './ArticleItems.css'
 
 class ArticleItems extends Component {
+constructor(props){
+    super(props)
+    this.state={
+            path : {
+            pathname:`/detail/${this.props.data._id.$oid}`,
+            state:this.props.data,
+        }
+    }   
+}
     render() {
+
         return (
             <div className="li_container" onClick={
                 ()=>{
-                    this.props.history.push(`/detail/${this.props.data._id.$oid}`,{id:this.props.data._id.$oid})
+                    this.props.history.push(this.state.path);
                 }
             }>
                 <div className="li_content">

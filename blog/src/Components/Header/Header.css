@@ -23,5 +23,8 @@
     margin: 0 0 1.5em 0;
 }
 .button_container{
-    margin-left: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 600px;
 }
