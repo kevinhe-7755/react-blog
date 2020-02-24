@@ -16,7 +16,7 @@ class Homepage extends Component {
     }
 
 componentDidMount(){
-    fetch(URL,HEADER)
+    fetch('./data.json')
     .then((res) => res.json())
     .then((res)=>{console.log(res)
         this.setState({ articles: res});

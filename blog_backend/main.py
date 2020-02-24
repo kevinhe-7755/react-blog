@@ -1,10 +1,12 @@
 from flask import Flask, request,json
 import flask
+from flask_cors import CORS
+
 from api import gettest, postArt
-from flask_cors import *
 
 app = Flask(__name__)
 CORS(app, resources=r'/*')
+
 
 headers = {
     'Cache-Control' : 'no-cache, no-store, must-revalidate',

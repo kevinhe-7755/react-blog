@@ -1,6 +1,5 @@
 import pymongo
-# import dnspython
-import requests
+#import dnspython
 import time
 import json
 from bson import json_util
